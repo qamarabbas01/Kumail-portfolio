@@ -7,3 +7,17 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* Slightly lighter background and global utilities */
+body {
+    background: var(--tw-bg-opacity, 1);
+}
+
+.site-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    box-shadow: 0 6px 18px rgba(2,6,23,0.08);
+}

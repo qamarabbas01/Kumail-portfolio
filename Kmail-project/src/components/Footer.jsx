@@ -1,14 +1,13 @@
-import React from "react";
 import { BsInstagram } from "react-icons/bs";
 import { FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className=" flex flex-col lg:flex-row justify-between lg:px-32 px-5 bg-white p-5">
-      <div className=" flex gap-10">
-        <a href="https://www.instagram.com/_kumail.5/">
+    <footer className=" flex flex-col lg:flex-row justify-between lg:px-32 px-5 bg-white p-6 items-center gap-4">
+      <div className=" flex gap-6">
+        <a href="https://www.instagram.com/_kumail.5/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
         <BsInstagram
-          size={32}
+          size={28}
           className=" hover:text-brightColor transition-all cursor-pointer"
         />
         </a>
@@ -20,9 +19,9 @@ const Footer = () => {
         />
         </a>
 
-       <a href="https://www.linkedin.com/learning/">
+       <a href="https://www.linkedin.com/learning/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
        <FaLinkedin
-          size={32}
+          size={28}
           className=" hover:text-brightColor transition-all cursor-pointer"
         />
        </a>
@@ -35,10 +34,10 @@ const Footer = () => {
         </a>
 
       </div>
-      <div className=" flex flex-row items-center cursor-pointer mt-5 lg:mt-0">
-        <h1 className=" text-3xl font-semibold">Topo..</h1>
+      <div className=" flex flex-row items-center cursor-pointer mt-3 lg:mt-0">
+        <h1 className=" text-xl font-semibold">Kumail Abbas</h1>
       </div>
-    </div>
+    </footer>
   );
 };
 
